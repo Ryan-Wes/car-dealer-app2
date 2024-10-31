@@ -12,10 +12,6 @@ fetch('https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForVehicleType/car?format
             makeSelect.append(option);
         });
 
-        makeSelect.select2({
-            placeholder: 'Selecione a marca do carro',
-            allowClear: true
-        });
     });
 
 const currentYear = new Date().getFullYear();
@@ -23,11 +19,6 @@ for (let year = 2015; year <= currentYear; year++) {
     const option = $('<option></option>').val(year).text(year);
     yearSelect.append(option);
 }
-
-yearSelect.select2({
-    placeholder: 'Selecione o ano',
-    allowClear: true
-});
 
 makeSelect.on('change', validateSelection);
 yearSelect.on('change', validateSelection);

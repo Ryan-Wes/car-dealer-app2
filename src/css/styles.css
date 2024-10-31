@@ -67,6 +67,11 @@ header {
     height: 400px;
 }
 
+label {
+    width: 300px;
+    text-align: start;
+}
+
 select, button {
     width: 100%;
     max-width: 300px;
