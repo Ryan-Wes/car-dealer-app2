@@ -84,7 +84,6 @@ select, button {
 
 select {
     background-color: #292929;
-    color: var(--cor-branco);
     border: 1px solid var(--cor-laranja);
 }
 
