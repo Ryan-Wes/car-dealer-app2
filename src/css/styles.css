@@ -84,7 +84,7 @@ select, button {
 
 select {
     background-color: #292929;
-    border: 1px solid var(--cor-laranja);
+    border: 2px solid var(--cor-laranja);
 }
 
 .select2-container--default .select2-selection--single {
