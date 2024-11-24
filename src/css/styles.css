@@ -74,7 +74,7 @@ label {
 
 select, button {
     width: 100%;
-    max-width: 301px;
+    max-width: 300px;
     padding: 12px;
     margin: 10px 0;
     border: none;
